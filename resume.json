@@ -1,0 +1,161 @@
+{
+	"basics": {
+		"name": "Andy Clarke",
+		"label": "Senior software engineer & application architect",
+		"picture": "",
+		"email": "andrew.t.clarke(at)gmail.com",
+		"website": "http://www.clarkie.io",
+		"summary": "I am a competent software engineer with a passion for quality code and practices. I have a real flair for application design and development and a good work ethic suited to both working individually or as part of a team.",
+		"location": {
+
+			"city": "London",
+			"countryCode": "UK"
+		},
+		"profiles": [
+			{
+				"network": "Github",
+				"url": "https://github.com/clarkie"
+			},
+			{
+				"network": "LinkedIn",
+				"username": "",
+				"url": "https://linkedin.com/in/clarkie1"
+			}
+		]
+	},
+	"work": [
+		{
+			"company": "Concrete",
+			"position": "Technical Architect",
+			"website": "http://concrete.cc",
+			"startDate": "2010-09-01",
+			"summary": "Employed originally as a software engineer and now leading a team of 12 developers working on ConcretePlatform, a suite of applications that assist large retail brands trading internationally. In addition to the development of new products and features I have:",
+			"highlights": [
+				"Designed and lead a team to rebuild a legacy application using a Node.js REST API with a Backbone Marionette front end.",
+				"Been the first point of contact for key clients from an early scoping phase through to the training of clients' international staff.",
+				"Lead the business to adopt a framework that I designed, enabling the software to be more scalable and easily maintained.",
+				"Introduced coding standards and monitoring to help the team produce more reliable software releases.",
+				"Deployed an issue tracking system for clients to raise issues that can then be prioritised by the product owners. This tool is now used across the business to also track professional service utilisation.",
+				"Produced and owned an architectural roadmap for the application setting out key milestones for the development team.",
+				"Introduced code and database build processes to enable regular testing of our code changes and database release scripts enabling Concrete to deploy more regularly and reliably to clients.",
+				"Lead workshops with clients to gain a better understanding of the operational issues they face trading their brand internationally.",
+				"Rolled out a clustered production environment improving the resilience of the platform."
+			]
+		},
+		{
+			"company": "Kingston Communications (Eclipse Internet)",
+			"position": "Senior Software Engineer",
+			"website": "http://eclipse.net",
+			"startDate": "2006-09-01",
+			"endDate": "2009-11-01",
+			"summary": "Employed as a software engineer responsible for delivering enhancements to a bespoke, enterprise application that manages the entire Eclipse customer base and business processes to supply and support services.  This was a varied role comprising:",
+			"highlights": [
+				"Provided technical expertise as part of a pre-sales bid team to help win a contract to deliver a business-to-business interface. I subsequently led the development team to deliver this.",
+				"Requirements analysis of new change requests put forward by the business.",
+				"Solution design for change requests; from database table design to usable front end interfaces.",
+				"Development of the solution based on the signed off design document mainly in ColdFusion and T-SQL.",
+				"Publication of training documentation for use by the users of the internal customer management system.",
+				"Maintenance and support for the underlying infrastructure including the cluster of four ColdFusion and web servers and two MSSQL 2000 database servers.",
+				"Third line technical support handling queries from the frontline call centre staff and bug fixes."
+			]
+		},
+		{
+			"company": "Electrical Testing Surveyors",
+			"position": "Software Developer / Business Analyst",
+			"startDate": "2006-06-01",
+			"endDate": "2006-09-01",
+			"summary": "As part of a scheme run by the University of Exeter I was given the opportunity to gain development experience in a commercial environment whilst attending a business management course."
+		}
+
+	],
+	"education": [
+		{
+			"institution": "University of Exeter",
+			"area": "Computer Science",
+			"studyType": "BSc",
+			"gpa": "2:2",
+			"startDate": "2002-09-01",
+			"endDate": "2005-06-01"
+		},
+		{
+			"institution": "Loughborough Grammar School",
+			"area": "Computer Science, Maths, Physics and Further Maths",
+			"gpa": "A,A,B,B",
+			"studyType": "A-level",
+			"startDate": "2000-09-01",
+			"endDate": "2002-06-01"
+		}
+	],
+	"publications": [
+		{
+			"name": "Technical Debt - is your code base heading for the fiscal cliff?",
+			"releaseDate": "2014-06-06",
+			"website": "http://www.slideshare.net/AndrewClarke8/technical-debt-sotr14-clarkie",
+			"summary": "Is your technical debt out of control? Would you like to consolidate your debts into one easily manageable monthly release? As a small company we've had our fair share of JFDI demands from our clients and as a result were growing a pile of technical debt. I'd like to talk through how we have reduced our technical debt and the technologies we've used to get there without a complete re-write and without slowing down our engineering team."
+		}
+	],
+	"skills": [
+		{
+			"name": "Web Application Development",
+			"level": "Master",
+			"keywords": [
+				"Node.js",
+				"MySQL",
+				"MSSQL",
+				"ColdFusion",
+				"Railo",
+				"Javascript",
+				"Backbone",
+				"Marionette",
+				"JQuery",
+				"HTML",
+				"CSS",
+				""
+			]
+		},
+		{
+			"name": "Devops",
+			"level": "Master",
+			"keywords": [
+				"Vagrant",
+				"Puppet",
+				"AWS",
+				"Jenkins",
+				"Statsd + graphite",
+				"Logstash & Kibana"
+			]
+		},
+		{
+			"name": "Softare Development Lifecycle",
+			"level": "Master",
+			"keywords": [
+				"Git",
+				"SVN",
+				"Jira",
+				"Fisheye"
+			]
+		}
+	],
+	"languages": [
+		{
+			"language": "English",
+			"fluency": "Native speaker"
+		}
+	],
+	"interests": [
+		{
+			"name": "Sports",
+			"keywords": [
+				"Surfing",
+				"Skating",
+				"Running"
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "Various",
+			"reference": "Available upon request"
+		}
+	]
+}
