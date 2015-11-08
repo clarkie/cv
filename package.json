@@ -1,0 +1,23 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "My CV in JSON using https://jsonresume.org/",
+  "main": "index.js",
+  "scripts": {
+    "serve": "resume serve --theme elegant",
+    "export": "resume export --format html cv.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarkie/cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarkie/cv/issues"
+  },
+  "homepage": "https://github.com/clarkie/cv#readme",
+  "dependencies": {
+    "resume-cli": "^0.4.8"
+  }
+}
