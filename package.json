@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "resume serve --theme elegant",
-    "export": "resume export --format html cv.html"
+    "export": "resume export --format html --theme elegant cv.html"
   },
   "repository": {
     "type": "git",
