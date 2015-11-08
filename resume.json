@@ -25,11 +25,24 @@
 	},
 	"work": [
 		{
+			"company": "Tido Music",
+			"position": "JavaScript / Node.js Consultant",
+			"website": "http://tido-music.com",
+			"startDate": "2015-08-01",
+			"summary": "Full stack development using Node.js, React, Redux, MySQL on AWS",
+			"highlights": [
+				"Designed and deployed an api using the Hapi framework to enable the purchase and deployment of content to an ios app",
+				"Taken part in architecture planning meetings defining how the backend services will be built and deployed",
+				"Introduced Redux to an existing ReactJS application to improve maintainability"
+			]
+		},
+		{
 			"company": "Concrete",
 			"position": "Technical Architect",
 			"website": "http://concrete.cc",
 			"startDate": "2010-09-01",
-			"summary": "Employed originally as a software engineer and now leading a team of 12 developers working on ConcretePlatform, a suite of applications that assist large retail brands trading internationally. In addition to the development of new products and features I have:",
+			"endDate": "2015-07-31",
+			"summary": "Lead a team of 12 developers working on ConcretePlatform, a suite of applications that assist large retail brands trading internationally. In addition to the development of new products and features I have:",
 			"highlights": [
 				"Designed and lead a team to rebuild a legacy application using a Node.js REST API with a Backbone Marionette front end.",
 				"Been the first point of contact for key clients from an early scoping phase through to the training of clients' international staff.",
@@ -73,14 +86,14 @@
 			"institution": "University of Exeter",
 			"area": "Computer Science",
 			"studyType": "BSc",
-			"gpa": "2:2",
+
 			"startDate": "2002-09-01",
 			"endDate": "2005-06-01"
 		},
 		{
 			"institution": "Loughborough Grammar School",
 			"area": "Computer Science, Maths, Physics and Further Maths",
-			"gpa": "A,A,B,B",
+
 			"studyType": "A-level",
 			"startDate": "2000-09-01",
 			"endDate": "2002-06-01"
@@ -94,23 +107,38 @@
 			"summary": "Is your technical debt out of control? Would you like to consolidate your debts into one easily manageable monthly release? As a small company we've had our fair share of JFDI demands from our clients and as a result were growing a pile of technical debt. I'd like to talk through how we have reduced our technical debt and the technologies we've used to get there without a complete re-write and without slowing down our engineering team."
 		}
 	],
+  "volunteer": [{
+    "organization": "London Node.js User Group (LNUG)",
+    "position": "Organiser",
+    "website": "http://lnug.org/",
+    "startDate": "2015-08-26",
+    "summary": "LNUG is a monthly meetup with talks based on or around Node.js"
+  },
+  {
+    "organization": "SushiJS (London)",
+    "position": "Organiser",
+    "website": "http://www.sushijs.org/",
+    "startDate": "2015-03-20",
+    "summary": "SushiJS is a meetup designed to bring JavaScript developers together through sushi and conversation."
+  }],
 	"skills": [
 		{
 			"name": "Web Application Development",
 			"level": "Master",
 			"keywords": [
+				"Javascript",
 				"Node.js",
 				"MySQL",
 				"MSSQL",
-				"ColdFusion",
-				"Railo",
-				"Javascript",
+				"ReactJS",
+				"Redux",
 				"Backbone",
 				"Marionette",
 				"JQuery",
 				"HTML",
 				"CSS",
-				""
+				"ColdFusion",
+				"Railo"
 			]
 		},
 		{
