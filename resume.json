@@ -1,13 +1,11 @@
 {
 	"basics": {
 		"name": "Andy Clarke",
-		"label": "Senior software engineer & application architect",
+		"label": "Technical Leader",
 		"picture": "",
 		"email": "andrew.t.clarke(at)gmail.com",
 		"website": "http://www.clarkie.io",
-		"summary": "I am a competent software engineer with a passion for quality code and practises. I have a real flair for application design and development and a good work ethic suited to both working individually or as part of a team.",
 		"location": {
-
 			"city": "London",
 			"countryCode": "UK"
 		},
@@ -26,14 +24,34 @@
 	"work": [
 		{
 			"company": "Tido Music",
-			"position": "JavaScript / Node.js Consultant",
+			"position": "Chief Technical Officer",
+			"website": "http://tido-music.com",
+			"startDate": "2016-08-01",
+			"summary": "Leading an engineering team building mobile and web applications",
+			"highlights": [
+				"As part of the senior management team contributed to the formation and delivery of the business' strategic goals",
+				"Managed and mentored a team of engineers, including hiring & salary reviews",
+				"Lead a re-architecture of the Tido Music iOS app away from fully native code to a hybrid React Native app",
+				"Converted the pricing model for the Tido Music app from one off purchases to subscriptions in two weeks",
+				"Scoped and pitched new propositions to potential partners",
+				"Implemented a fortnightly sprint process to deliver value quickly to our users",
+				"Nurtured the team through a change from contract staff to full time employees",
+				"Consolidated three engineering teams into one to enable better knowledge sharing and efficient use of team members to deliver on the strategic goals",
+				"Standardised our delivery and deployment pipelines across all our services using Elastic Beanstalk and CircleCI",
+				"Integrated Stripe for the web product including global tax compliance"
+			]
+		},
+		{
+			"company": "Tido Music",
+			"position": "Full-Stack JavaScript Consultant",
 			"website": "http://tido-music.com",
 			"startDate": "2015-08-01",
 			"summary": "Full stack development using Node.js, React, Redux, MySQL on AWS",
 			"highlights": [
 				"Designed and deployed an api using the Hapi framework to enable the purchase and deployment of content to an ios app",
 				"Taken part in architecture planning meetings defining how the backend services will be built and deployed",
-				"Introduced Redux to an existing ReactJS application to improve maintainability"
+				"Introduced Redux to an existing ReactJS application to improve maintainability",
+				"Lead a migration of a MySQL database to Amazon's DynamoDB to reduce operational overheads"
 			]
 		},
 		{
@@ -45,8 +63,6 @@
 			"summary": "Responsible for leading a team of 12 developers working on ConcretePlatform, a suite of applications that assist large retail brands trading internationally. In addition to the development of new products and features I:",
 			"highlights": [
 				"Designed and led a team to rebuild a legacy application using a Node.js REST API with a Backbone Marionette front end.",
-				"Was the first point of contact for key clients from an early scoping phase through to the training of clients' international staff.",
-				"Lead the business to adopt a framework that I designed, enabling the software to be more scalable and easily maintained.",
 				"Introduced coding standards and monitoring to help the team produce more reliable software releases.",
 				"Deployed an issue tracking system for clients to raise issues that can then be prioritised by the product owners. This tool is now used across the business to also track professional service utilisation.",
 				"Produced and owned an architectural roadmap for the application setting out key milestones for the development team.",
@@ -126,19 +142,15 @@
 			"name": "Web Application Development",
 			"level": "Master",
 			"keywords": [
-				"Javascript",
+				"JavaScript",
 				"Node.js",
-				"MySQL",
-				"MSSQL",
+				"DynamoDB",
+				"SQL",
 				"ReactJS",
 				"Redux",
-				"Backbone",
-				"Marionette",
-				"JQuery",
+				"React Native",
 				"HTML",
-				"CSS",
-				"ColdFusion",
-				"Railo"
+				"CSS"
 			]
 		},
 		{
