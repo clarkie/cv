@@ -46,6 +46,7 @@
 			"position": "Full-Stack JavaScript Consultant",
 			"website": "http://tido-music.com",
 			"startDate": "2015-08-01",
+			"endDate": "2016-07-31",
 			"summary": "Full stack development using Node.js, React, Redux, MySQL on AWS",
 			"highlights": [
 				"Designed and deployed an api using the Hapi framework to enable the purchase and deployment of content to an ios app",
@@ -117,6 +118,18 @@
 	],
 	"publications": [
 		{
+			"name": "Building search in a week(ish)",
+			"releaseDate": "2017-01-25",
+			"website": "https://www.youtube.com/watch?v=pzGwE3M7Ezc",
+			"summary": "Quickly compiled lightning talk about a week building a search feature for Tido"
+		},
+		{
+			"name": "A year with AWS",
+			"releaseDate": "2017-01-25",
+			"website": "https://www.youtube.com/watch?v=4yxHjeWvnR4",
+			"summary": "Moving from a company where everything ran on 'bare metal' in a DC on Goswell Road to a startup where everything was already running in AWS has proven to be an interesting learning curve. This talk will take you through some of my learnings along the way and some of the ways we use bits of the AWS toolkit now at Tido."
+		},
+		{
 			"name": "Technical Debt - is your code base heading for the fiscal cliff?",
 			"releaseDate": "2014-06-06",
 			"website": "http://www.slideshare.net/AndrewClarke8/technical-debt-sotr14-clarkie",
@@ -157,10 +170,11 @@
 			"name": "Devops",
 			"level": "Master",
 			"keywords": [
+				"AWS",
 				"Vagrant",
 				"Puppet",
-				"AWS",
 				"Jenkins",
+				"CircleCI",
 				"Statsd + graphite",
 				"Logstash & Kibana"
 			]
