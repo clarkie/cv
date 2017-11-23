@@ -1,215 +1,205 @@
 {
-	"basics": {
-		"name": "Andy Clarke",
-		"label": "Technical Leader",
-		"picture": "",
-		"email": "andrew.t.clarke(at)gmail.com",
-		"website": "http://www.clarkie.io",
-		"location": {
-			"city": "London",
-			"countryCode": "UK"
-		},
-		"profiles": [
-			{
-				"network": "Github",
-				"url": "https://github.com/clarkie"
-			},
-			{
-				"network": "LinkedIn",
-				"username": "",
-				"url": "https://linkedin.com/in/clarkie1"
-			}
-		]
-	},
-	"work": [
-		{
-			"company": "Tido Music",
-			"position": "Chief Technical Officer",
-			"website": "http://tido-music.com",
-			"startDate": "2016-08-01",
-			"summary": "Leading an engineering team building mobile and web applications",
-			"highlights": [
-				"As part of the senior management team contributed to the formation and delivery of the business' strategic goals",
-				"Managed and mentored a team of engineers, including hiring & salary reviews",
-				"Lead a re-architecture of the Tido Music iOS app away from fully native code to a hybrid React Native app",
-				"Converted the pricing model for the Tido Music app from one off purchases to subscriptions in two weeks",
-				"Scoped and pitched new propositions to potential partners",
-				"Implemented a fortnightly sprint process to deliver value quickly to our users",
-				"Nurtured the team through a change from contract staff to full time employees",
-				"Consolidated three engineering teams into one to enable better knowledge sharing and efficient use of team members to deliver on the strategic goals",
-				"Standardised our delivery and deployment pipelines across all our services using Elastic Beanstalk and CircleCI",
-				"Integrated Stripe for the web product including global tax compliance"
-			]
-		},
-		{
-			"company": "Tido Music",
-			"position": "Full-Stack JavaScript Consultant",
-			"website": "http://tido-music.com",
-			"startDate": "2015-08-01",
-			"endDate": "2016-07-31",
-			"summary": "Full stack development using Node.js, React, Redux, MySQL on AWS",
-			"highlights": [
-				"Designed and deployed an api using the Hapi framework to enable the purchase and deployment of content to an ios app",
-				"Taken part in architecture planning meetings defining how the backend services will be built and deployed",
-				"Introduced Redux to an existing ReactJS application to improve maintainability",
-				"Lead a migration of a MySQL database to Amazon's DynamoDB to reduce operational overheads"
-			]
-		},
-		{
-			"company": "Concrete",
-			"position": "Technical Architect",
-			"website": "http://concrete.cc",
-			"startDate": "2010-09-01",
-			"endDate": "2015-07-31",
-			"summary": "Responsible for leading a team of 12 developers working on ConcretePlatform, a suite of applications that assist large retail brands trading internationally. In addition to the development of new products and features I:",
-			"highlights": [
-				"Designed and led a team to rebuild a legacy application using a Node.js REST API with a Backbone Marionette front end.",
-				"Introduced coding standards and monitoring to help the team produce more reliable software releases.",
-				"Deployed an issue tracking system for clients to raise issues that can then be prioritised by the product owners. This tool is now used across the business to also track professional service utilisation.",
-				"Produced and owned an architectural roadmap for the application setting out key milestones for the development team.",
-				"Introduced code and database build processes to enable regular testing of our code changes and database release scripts enabling Concrete to deploy more regularly and reliably to clients.",
-				"Lead workshops with clients to gain a better understanding of the operational issues they face trading their brand internationally.",
-				"Rolled out a clustered production environment improving the resilience of the platform."
-			]
-		},
-		{
-			"company": "Kingston Communications (Eclipse Internet)",
-			"position": "Senior Software Engineer",
-			"website": "http://eclipse.net",
-			"startDate": "2006-09-01",
-			"endDate": "2009-11-01",
-			"summary": "Employed as a software engineer responsible for delivering enhancements to a bespoke, enterprise application that manages the entire Eclipse customer base and business processes to supply and support services.  This was a varied role comprising:",
-			"highlights": [
-				"Provided technical expertise as part of a pre-sales bid team to help win a contract to deliver a business-to-business interface. I subsequently led the development team to deliver this.",
-				"Requirements analysis of new change requests put forward by the business.",
-				"Solution design for change requests; from database table design to usable front end interfaces.",
-				"Development of the solution based on the signed off design document mainly in ColdFusion and T-SQL.",
-				"Publication of training documentation for use by the users of the internal customer management system.",
-				"Maintenance and support for the underlying infrastructure including the cluster of four ColdFusion and web servers and two MSSQL 2000 database servers.",
-				"Third line technical support handling queries from the frontline call centre staff and bug fixes."
-			]
-		},
-		{
-			"company": "Electrical Testing Surveyors",
-			"position": "Software Developer / Business Analyst",
-			"startDate": "2006-06-01",
-			"endDate": "2006-09-01",
-			"summary": "As part of a scheme run by the University of Exeter I was given the opportunity to gain development experience in a commercial environment whilst attending a business management course."
-		}
-
-	],
-	"education": [
-		{
-			"institution": "University of Exeter",
-			"area": "Computer Science",
-			"studyType": "BSc",
-
-			"startDate": "2002-09-01",
-			"endDate": "2005-06-01"
-		},
-		{
-			"institution": "Loughborough Grammar School",
-			"area": "Computer Science, Maths, Physics and Further Maths",
-
-			"studyType": "A-level",
-			"startDate": "2000-09-01",
-			"endDate": "2002-06-01"
-		}
-	],
-	"publications": [
-		{
-			"name": "Building search in a week(ish)",
-			"releaseDate": "2017-01-25",
-			"website": "https://www.youtube.com/watch?v=pzGwE3M7Ezc",
-			"summary": "Quickly compiled lightning talk about a week building a search feature for Tido"
-		},
-		{
-			"name": "A year with AWS",
-			"releaseDate": "2017-01-25",
-			"website": "https://www.youtube.com/watch?v=4yxHjeWvnR4",
-			"summary": "Moving from a company where everything ran on 'bare metal' in a DC on Goswell Road to a startup where everything was already running in AWS has proven to be an interesting learning curve. This talk will take you through some of my learnings along the way and some of the ways we use bits of the AWS toolkit now at Tido."
-		},
-		{
-			"name": "Technical Debt - is your code base heading for the fiscal cliff?",
-			"releaseDate": "2014-06-06",
-			"website": "http://www.slideshare.net/AndrewClarke8/technical-debt-sotr14-clarkie",
-			"summary": "Is your technical debt out of control? Would you like to consolidate your debts into one easily manageable monthly release? As a small company we've had our fair share of JFDI demands from our clients and as a result were growing a pile of technical debt. I'd like to talk through how we have reduced our technical debt and the technologies we've used to get there without a complete re-write and without slowing down our engineering team."
-		}
-	],
-  "volunteer": [{
-    "organization": "London Node.js User Group (LNUG)",
-    "position": "Organiser",
-    "website": "http://lnug.org/",
-    "startDate": "2015-08-26",
-    "summary": "LNUG is a monthly meetup with talks based on or around Node.js"
+  "basics": {
+    "name": "Andy Clarke",
+    "label": "Technical Leader",
+    "picture": "",
+    "email": "andrew.t.clarke(at)gmail.com",
+    "website": "http://www.clarkie.io",
+    "location": {
+      "city": "London",
+      "countryCode": "UK"
+    },
+    "profiles": [{
+        "network": "Github",
+        "url": "https://github.com/clarkie"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://linkedin.com/in/clarkie1"
+      }
+    ]
   },
-  {
-    "organization": "SushiJS (London)",
-    "position": "Organiser",
-    "website": "http://www.sushijs.org/",
-    "startDate": "2015-03-20",
-    "summary": "SushiJS is a meetup designed to bring JavaScript developers together through sushi and conversation."
+  "work": [{
+      "company": "Tido Music",
+      "position": "Chief Technical Officer",
+      "website": "http://tido-music.com",
+      "startDate": "2016-08-01",
+      "summary": "Leading an engineering team building mobile and web applications",
+      "highlights": [
+        "As part of the senior management team contributed to the formation and delivery of the business' strategic goals",
+        "Managed and mentored a team of engineers, including hiring & salary reviews",
+        "Lead a re-architecture of the Tido Music iOS app away from fully native code to a hybrid React Native app",
+        "Converted the pricing model for the Tido Music app from one off purchases to subscriptions in two weeks",
+        "Scoped and pitched new propositions to potential partners",
+        "Implemented a fortnightly sprint process to deliver value quickly to our users",
+        "Nurtured the team through a change from contract staff to full time employees",
+        "Consolidated three engineering teams into one to enable better knowledge sharing and efficient use of team members to deliver on the strategic goals",
+        "Standardised our delivery and deployment pipelines across all our services using Elastic Beanstalk and CircleCI",
+        "Integrated Stripe for the web product including global tax compliance"
+      ]
+    },
+    {
+      "company": "Tido Music",
+      "position": "Full-Stack JavaScript Consultant",
+      "website": "http://tido-music.com",
+      "startDate": "2015-08-01",
+      "endDate": "2016-07-31",
+      "summary": "Full stack development using Node.js, React, Redux, MySQL on AWS",
+      "highlights": [
+        "Designed and deployed an api using the Hapi framework to enable the purchase and deployment of content to an ios app",
+        "Taken part in architecture planning meetings defining how the backend services will be built and deployed",
+        "Introduced Redux to an existing ReactJS application to improve maintainability",
+        "Lead a migration of a MySQL database to Amazon's DynamoDB to reduce operational overheads"
+      ]
+    },
+    {
+      "company": "Concrete",
+      "position": "Technical Architect",
+      "website": "http://concrete.cc",
+      "startDate": "2010-09-01",
+      "endDate": "2015-07-31",
+      "summary": "Responsible for leading a team of 12 developers working on ConcretePlatform, a suite of applications that assist large retail brands trading internationally. In addition to the development of new products and features I:",
+      "highlights": [
+        "Designed and led a team to rebuild a legacy application using a Node.js REST API with a Backbone Marionette front end.",
+        "Introduced coding standards and monitoring to help the team produce more reliable software releases.",
+        "Deployed an issue tracking system for clients to raise issues that can then be prioritised by the product owners. This tool is now used across the business to also track professional service utilisation.",
+        "Produced and owned an architectural roadmap for the application setting out key milestones for the development team.",
+        "Introduced code and database build processes to enable regular testing of our code changes and database release scripts enabling Concrete to deploy more regularly and reliably to clients.",
+        "Lead workshops with clients to gain a better understanding of the operational issues they face trading their brand internationally.",
+        "Rolled out a clustered production environment improving the resilience of the platform."
+      ]
+    },
+    {
+      "company": "Kingston Communications (Eclipse Internet)",
+      "position": "Senior Software Engineer",
+      "website": "http://eclipse.net",
+      "startDate": "2006-09-01",
+      "endDate": "2009-11-01",
+      "summary": "Employed as a software engineer responsible for delivering enhancements to a bespoke, enterprise application that manages the entire Eclipse customer base and business processes to supply and support services.  This was a varied role comprising:",
+      "highlights": [
+        "Provided technical expertise as part of a pre-sales bid team to help win a contract to deliver a business-to-business interface. I subsequently led the development team to deliver this.",
+        "Requirements analysis of new change requests put forward by the business.",
+        "Solution design for change requests; from database table design to usable front end interfaces.",
+        "Development of the solution based on the signed off design document mainly in ColdFusion and T-SQL.",
+        "Publication of training documentation for use by the users of the internal customer management system.",
+        "Maintenance and support for the underlying infrastructure including the cluster of four ColdFusion and web servers and two MSSQL 2000 database servers.",
+        "Third line technical support handling queries from the frontline call centre staff and bug fixes."
+      ]
+    },
+    {
+      "company": "Electrical Testing Surveyors",
+      "position": "Software Developer / Business Analyst",
+      "startDate": "2006-06-01",
+      "endDate": "2006-09-01",
+      "summary": "As part of a scheme run by the University of Exeter I was given the opportunity to gain development experience in a commercial environment whilst attending a business management course."
+    }
+
+  ],
+  "education": [{
+      "institution": "University of Exeter",
+      "area": "Computer Science",
+      "studyType": "BSc",
+
+      "startDate": "2002-09-01",
+      "endDate": "2005-06-01"
+    },
+    {
+      "institution": "Loughborough Grammar School",
+      "area": "Computer Science, Maths, Physics and Further Maths",
+
+      "studyType": "A-level",
+      "startDate": "2000-09-01",
+      "endDate": "2002-06-01"
+    }
+  ],
+  "publications": [{
+      "name": "Building search in a week(ish)",
+      "releaseDate": "2017-01-25",
+      "website": "https://www.youtube.com/watch?v=pzGwE3M7Ezc",
+      "summary": "Quickly compiled lightning talk about a week building a search feature for Tido"
+    },
+    {
+      "name": "A year with AWS",
+      "releaseDate": "2017-01-25",
+      "website": "https://www.youtube.com/watch?v=4yxHjeWvnR4",
+      "summary": "Moving from a company where everything ran on 'bare metal' in a DC on Goswell Road to a startup where everything was already running in AWS has proven to be an interesting learning curve. This talk will take you through some of my learnings along the way and some of the ways we use bits of the AWS toolkit now at Tido."
+    },
+    {
+      "name": "Technical Debt - is your code base heading for the fiscal cliff?",
+      "releaseDate": "2014-06-06",
+      "website": "http://www.slideshare.net/AndrewClarke8/technical-debt-sotr14-clarkie",
+      "summary": "Is your technical debt out of control? Would you like to consolidate your debts into one easily manageable monthly release? As a small company we've had our fair share of JFDI demands from our clients and as a result were growing a pile of technical debt. I'd like to talk through how we have reduced our technical debt and the technologies we've used to get there without a complete re-write and without slowing down our engineering team."
+    }
+  ],
+  "volunteer": [{
+      "organization": "London Node.js User Group (LNUG)",
+      "position": "Organiser",
+      "website": "http://lnug.org/",
+      "startDate": "2015-08-26",
+      "summary": "LNUG is a monthly meetup with talks based on or around Node.js"
+    },
+    {
+      "organization": "SushiJS (London)",
+      "position": "Organiser",
+      "website": "http://www.sushijs.org/",
+      "startDate": "2015-03-20",
+      "summary": "SushiJS is a meetup designed to bring JavaScript developers together through sushi and conversation."
+    }
+  ],
+  "skills": [{
+      "name": "Web Application Development",
+      "level": "Master",
+      "keywords": [
+        "JavaScript",
+        "Node.js",
+        "DynamoDB",
+        "SQL",
+        "ReactJS",
+        "Redux",
+        "React Native",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Devops",
+      "level": "Master",
+      "keywords": [
+        "AWS",
+        "Vagrant",
+        "Puppet",
+        "Jenkins",
+        "CircleCI",
+        "Statsd + graphite",
+        "Logstash & Kibana"
+      ]
+    },
+    {
+      "name": "Softare Development Lifecycle",
+      "level": "Master",
+      "keywords": [
+        "Git",
+        "SVN",
+        "Jira",
+        "Fisheye"
+      ]
+    }
+  ],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
   }],
-	"skills": [
-		{
-			"name": "Web Application Development",
-			"level": "Master",
-			"keywords": [
-				"JavaScript",
-				"Node.js",
-				"DynamoDB",
-				"SQL",
-				"ReactJS",
-				"Redux",
-				"React Native",
-				"HTML",
-				"CSS"
-			]
-		},
-		{
-			"name": "Devops",
-			"level": "Master",
-			"keywords": [
-				"AWS",
-				"Vagrant",
-				"Puppet",
-				"Jenkins",
-				"CircleCI",
-				"Statsd + graphite",
-				"Logstash & Kibana"
-			]
-		},
-		{
-			"name": "Softare Development Lifecycle",
-			"level": "Master",
-			"keywords": [
-				"Git",
-				"SVN",
-				"Jira",
-				"Fisheye"
-			]
-		}
-	],
-	"languages": [
-		{
-			"language": "English",
-			"fluency": "Native speaker"
-		}
-	],
-	"interests": [
-		{
-			"name": "Sports",
-			"keywords": [
-				"Surfing",
-				"Skating",
-				"Running"
-			]
-		}
-	],
-	"references": [
-		{
-			"name": "Various",
-			"reference": "Available upon request"
-		}
-	]
+  "interests": [{
+    "name": "Sports",
+    "keywords": [
+      "Surfing",
+      "Skating",
+      "Running"
+    ]
+  }],
+  "references": [{
+    "name": "Various",
+    "reference": "Available upon request"
+  }]
 }
