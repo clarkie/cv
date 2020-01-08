@@ -21,6 +21,14 @@
     ]
   },
   "work": [{
+      "company": "Togs",
+      "position": "Chief Dyslexia Liason",
+      "website": "https://togs.io",
+      "summary": "Keeping people warm at night",
+      "highlights": [
+        "Stayed calm in the face of overwhelming adversity"
+      ]
+    },
       "company": "Tido Music",
       "position": "Chief Technical Officer",
       "website": "http://tido-music.com",
